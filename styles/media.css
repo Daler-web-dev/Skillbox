@@ -1,0 +1,29 @@
+@media (max-width: 1280px){
+    .container{
+        width: 930px;
+    }
+    .header-left{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .logo{
+        margin-right: 10px;
+    }
+    .about-left h1{
+        font-size: 40px;
+     }
+     .about-video-wrap{
+         width: 200px;
+         height: 200px;
+     }
+}
+@media (max-width: 760px){
+    .about-left-top{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .about-video-wrap{
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+}
